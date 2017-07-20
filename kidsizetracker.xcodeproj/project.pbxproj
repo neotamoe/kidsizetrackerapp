@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E68E8E6B6558D970348F878 /* Pods_kidsizetracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA70019C3B66C4C6D3CB6D8 /* Pods_kidsizetracker.framework */; };
+		87B23F9D1F2115B1005A0C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B23F9C1F2115B1005A0C58 /* AppDelegate.swift */; };
+		87B23F9F1F2115B1005A0C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87B23F9E1F2115B1005A0C58 /* ViewController.swift */; };
+		87B23FA21F2115B1005A0C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FA01F2115B1005A0C58 /* Main.storyboard */; };
+		87B23FA51F2115B1005A0C58 /* kidsizetracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87B23FA31F2115B1005A0C58 /* kidsizetracker.xcdatamodeld */; };
+		87B23FA71F2115B1005A0C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FA61F2115B1005A0C58 /* Assets.xcassets */; };
+		87B23FAA1F2115B1005A0C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FA81F2115B1005A0C58 /* LaunchScreen.storyboard */; };
+		87B23FB21F21167D005A0C58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FB11F21167D005A0C58 /* GoogleService-Info.plist */; };
+		87B23FB41F2118B7005A0C58 /* measure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FB31F2118B7005A0C58 /* measure.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45C78BA61E40C441C20FDCB9 /* Pods-kidsizetracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kidsizetracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kidsizetracker/Pods-kidsizetracker.debug.xcconfig"; sourceTree = "<group>"; };
+		87B23F991F2115B1005A0C58 /* kidsizetracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsizetracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87B23F9C1F2115B1005A0C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		87B23F9E1F2115B1005A0C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		87B23FA11F2115B1005A0C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87B23FA41F2115B1005A0C58 /* kidsizetracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = kidsizetracker.xcdatamodel; sourceTree = "<group>"; };
+		87B23FA61F2115B1005A0C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87B23FA91F2115B1005A0C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87B23FAB1F2115B1005A0C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87B23FB11F21167D005A0C58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		87B23FB31F2118B7005A0C58 /* measure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = measure.jpg; sourceTree = "<group>"; };
+		CFA70019C3B66C4C6D3CB6D8 /* Pods_kidsizetracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kidsizetracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E922E286844828A7880D2645 /* Pods-kidsizetracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kidsizetracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-kidsizetracker/Pods-kidsizetracker.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87B23F961F2115B1005A0C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E68E8E6B6558D970348F878 /* Pods_kidsizetracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75CA0F994AC2C8513DC46784 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA70019C3B66C4C6D3CB6D8 /* Pods_kidsizetracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87B23F901F2115B1005A0C58 = {
+			isa = PBXGroup;
+			children = (
+				87B23F9B1F2115B1005A0C58 /* kidsizetracker */,
+				87B23F9A1F2115B1005A0C58 /* Products */,
+				AD931277833DA028185400D5 /* Pods */,
+				75CA0F994AC2C8513DC46784 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		87B23F9A1F2115B1005A0C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87B23F991F2115B1005A0C58 /* kidsizetracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87B23F9B1F2115B1005A0C58 /* kidsizetracker */ = {
+			isa = PBXGroup;
+			children = (
+				87B23FB11F21167D005A0C58 /* GoogleService-Info.plist */,
+				87B23F9C1F2115B1005A0C58 /* AppDelegate.swift */,
+				87B23F9E1F2115B1005A0C58 /* ViewController.swift */,
+				87B23FA01F2115B1005A0C58 /* Main.storyboard */,
+				87B23FA61F2115B1005A0C58 /* Assets.xcassets */,
+				87B23FA81F2115B1005A0C58 /* LaunchScreen.storyboard */,
+				87B23FAB1F2115B1005A0C58 /* Info.plist */,
+				87B23FA31F2115B1005A0C58 /* kidsizetracker.xcdatamodeld */,
+				87B23FB31F2118B7005A0C58 /* measure.jpg */,
+			);
+			path = kidsizetracker;
+			sourceTree = "<group>";
+		};
+		AD931277833DA028185400D5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45C78BA61E40C441C20FDCB9 /* Pods-kidsizetracker.debug.xcconfig */,
+				E922E286844828A7880D2645 /* Pods-kidsizetracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87B23F981F2115B1005A0C58 /* kidsizetracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87B23FAE1F2115B1005A0C58 /* Build configuration list for PBXNativeTarget "kidsizetracker" */;
+			buildPhases = (
+				95BAE5EEDBBCAF5B6D0A2906 /* [CP] Check Pods Manifest.lock */,
+				87B23F951F2115B1005A0C58 /* Sources */,
+				87B23F961F2115B1005A0C58 /* Frameworks */,
+				87B23F971F2115B1005A0C58 /* Resources */,
+				3F6F6096CEABF748F3ABE79C /* [CP] Embed Pods Frameworks */,
+				D1D3181934EE29B105C6C2C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kidsizetracker;
+			productName = kidsizetracker;
+			productReference = 87B23F991F2115B1005A0C58 /* kidsizetracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87B23F911F2115B1005A0C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Neota Moe";
+				TargetAttributes = {
+					87B23F981F2115B1005A0C58 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 87B23F941F2115B1005A0C58 /* Build configuration list for PBXProject "kidsizetracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87B23F901F2115B1005A0C58;
+			productRefGroup = 87B23F9A1F2115B1005A0C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87B23F981F2115B1005A0C58 /* kidsizetracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87B23F971F2115B1005A0C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B23FB41F2118B7005A0C58 /* measure.jpg in Resources */,
+				87B23FAA1F2115B1005A0C58 /* LaunchScreen.storyboard in Resources */,
+				87B23FB21F21167D005A0C58 /* GoogleService-Info.plist in Resources */,
+				87B23FA71F2115B1005A0C58 /* Assets.xcassets in Resources */,
+				87B23FA21F2115B1005A0C58 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6F6096CEABF748F3ABE79C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kidsizetracker/Pods-kidsizetracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BAE5EEDBBCAF5B6D0A2906 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D1D3181934EE29B105C6C2C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kidsizetracker/Pods-kidsizetracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87B23F951F2115B1005A0C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87B23FA51F2115B1005A0C58 /* kidsizetracker.xcdatamodeld in Sources */,
+				87B23F9F1F2115B1005A0C58 /* ViewController.swift in Sources */,
+				87B23F9D1F2115B1005A0C58 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		87B23FA01F2115B1005A0C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B23FA11F2115B1005A0C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87B23FA81F2115B1005A0C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87B23FA91F2115B1005A0C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87B23FAC1F2115B1005A0C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87B23FAD1F2115B1005A0C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87B23FAF1F2115B1005A0C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45C78BA61E40C441C20FDCB9 /* Pods-kidsizetracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kidsizetracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.neota.kidsizetracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		87B23FB01F2115B1005A0C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E922E286844828A7880D2645 /* Pods-kidsizetracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = kidsizetracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moe.neota.kidsizetracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87B23F941F2115B1005A0C58 /* Build configuration list for PBXProject "kidsizetracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B23FAC1F2115B1005A0C58 /* Debug */,
+				87B23FAD1F2115B1005A0C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87B23FAE1F2115B1005A0C58 /* Build configuration list for PBXNativeTarget "kidsizetracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87B23FAF1F2115B1005A0C58 /* Debug */,
+				87B23FB01F2115B1005A0C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87B23FA31F2115B1005A0C58 /* kidsizetracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87B23FA41F2115B1005A0C58 /* kidsizetracker.xcdatamodel */,
+			);
+			currentVersion = 87B23FA41F2115B1005A0C58 /* kidsizetracker.xcdatamodel */;
+			path = kidsizetracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87B23F911F2115B1005A0C58 /* Project object */;
+}

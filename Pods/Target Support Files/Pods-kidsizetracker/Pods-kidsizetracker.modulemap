@@ -1,0 +1,6 @@
+framework module Pods_kidsizetracker {
+  umbrella header "Pods-kidsizetracker-umbrella.h"
+
+  export *
+  module * { export * }
+}
