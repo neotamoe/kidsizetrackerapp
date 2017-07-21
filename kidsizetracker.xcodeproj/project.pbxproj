@@ -16,6 +16,7 @@
 		87B23FAA1F2115B1005A0C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FA81F2115B1005A0C58 /* LaunchScreen.storyboard */; };
 		87B23FB21F21167D005A0C58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FB11F21167D005A0C58 /* GoogleService-Info.plist */; };
 		87B23FB41F2118B7005A0C58 /* measure.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 87B23FB31F2118B7005A0C58 /* measure.jpg */; };
+		87EA57B91F228BB200FC6063 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87EA57B81F228BB200FC6063 /* SignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		87B23FAB1F2115B1005A0C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87B23FB11F21167D005A0C58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		87B23FB31F2118B7005A0C58 /* measure.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = measure.jpg; sourceTree = "<group>"; };
+		87EA57B81F228BB200FC6063 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		CFA70019C3B66C4C6D3CB6D8 /* Pods_kidsizetracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kidsizetracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E922E286844828A7880D2645 /* Pods-kidsizetracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kidsizetracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-kidsizetracker/Pods-kidsizetracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +79,7 @@
 			children = (
 				87B23FB11F21167D005A0C58 /* GoogleService-Info.plist */,
 				87B23F9C1F2115B1005A0C58 /* AppDelegate.swift */,
+				87EA57B81F228BB200FC6063 /* SignInViewController.swift */,
 				87B23F9E1F2115B1005A0C58 /* ViewController.swift */,
 				87B23FA01F2115B1005A0C58 /* Main.storyboard */,
 				87B23FA61F2115B1005A0C58 /* Assets.xcassets */,
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87EA57B91F228BB200FC6063 /* SignInViewController.swift in Sources */,
 				87B23FA51F2115B1005A0C58 /* kidsizetracker.xcdatamodeld in Sources */,
 				87B23F9F1F2115B1005A0C58 /* ViewController.swift in Sources */,
 				87B23F9D1F2115B1005A0C58 /* AppDelegate.swift in Sources */,
